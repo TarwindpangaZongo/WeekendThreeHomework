@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">WeekendThreeHomework</string>
+    <string name="title_Employee">Employee</string>
+    <string name="title_new_employee">New Employee</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_find_update_delete">Find</string>
+</resources>

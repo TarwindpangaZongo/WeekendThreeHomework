@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FindUpdateDeleteFragment">
+
+    <EditText
+        android:id="@+id/etID"
+        android:layout_width="match_parent"
+        android:hint="Employee ID"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:hint="Employee Name"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etBirthday"
+        android:layout_width="match_parent"
+        android:hint="Employee Birtheday"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etWage"
+        android:layout_width="match_parent"
+        android:hint="Employee Wage"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etHireDate"
+        android:layout_width="match_parent"
+        android:hint="Employee Hire Date"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/etImage"
+        android:layout_width="match_parent"
+        android:hint="Employee Image Link"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnFind"
+        android:text="Find Employee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:text="Update Employee Data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:text="Delete Employee Data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
